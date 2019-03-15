@@ -1,0 +1,31 @@
+/*
+* Mia Buonadonna
+* March 21, 2019
+* Table Schedule
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+
+/* This is where I changed my background color. */
+    
+background-color: azure
+
+}
+
+/* This is the border color and pitch for the lines outside of each cell. */
+
+table, td, th { border: 5px navy blue; }
+
+/* Here are the thead, tbody, and tfoot color, which are stated in the HTML.  These change the colors of each section of the table. */
+
+thead {background-color: lightblue}
+tbody {background-color: aliceblue}
+tfoot {background-color: skyblue}

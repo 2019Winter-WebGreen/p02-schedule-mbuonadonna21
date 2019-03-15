@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- Mia Buonadonna-->
+<!-- March 21, 2019 -->
+<!-- Table Project -->
+
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="TableScheduleProject.css"> <!-- link to CSS -->
+        <!-- metadata -->
+        <meta charset="utf-8">
+        <meta name="description" content="This is a table with my school schedule and after school activities.">
+        <meta name="keywords" content="School, Schedule, Cycle, Activities, Flex, Homeroom, cheerleading, homework, lunch, Highschool, classes, periods, Literature, Geometry, lunch, chemistry, psychology">
+        <title>Title shows up in the browser tab</title>
+        <link rel="shortcut icon" href="favicon.ico"> <!-- favicon -->
+    </head>
+    
+    <body>
+    
+      <table border="black">
+          
+          <!-- This is where my heading is. I started with thead, which lets me be able to make this specific section a different color in the CSS. -->
+          
+          <!-- I used thead to change the color of the head in CSS. -->
+          
+          <thead>
+              
+          <!-- I used the colspan to make the heading go over all 8 columns. -->
+              
+          <tr>
+              <th colspan="8"> <br/> Mia Buonadonna's 2nd Semester Schedule </th>
+          </tr>  
+              
+          <!-- This is where the cycles are listed. -->
+          
+          <tr>
+              <th></th>
+              <th> Cycle 1 </th>
+              <th> Cycle 2 </th>
+              <th> Cycle 3 </th>
+              <th> Cycle 4 </th>
+              <th> Cycle 5 </th>
+              <th> Cycle 6 </th>
+              <th> Cycle 7 </th> 
+          </tr>
+        
+          </thead>
+          
+          
+          <!-- This is where my first period classes are. -->
+          
+          <!-- I used tbody to change the color of the body in CSS. -->
+          
+          <tbody>
+          
+          <tr>
+              <td> 8:15-8:55am <br/> <i> Period 1 </i> </td>
+              <td> Chemistry </td>
+              <td> Chemistry </td>
+              <td> Chemistry </td>
+              <td> Chemistry </td>
+              <td> Chemistry </td>
+              <td> Chemistry </td>
+              <td> Paschal Mystery <br/> and the Church </td>
+          </tr>
+          
+          <!-- This is where homeroom is. I used colspan to make thee homeroom block go across 7 columns. -->
+          
+          <tr>
+              <td> 9:00-9:15 <br/> <i> Homeroom </i> </td>
+              <td colspan="7"> Homeroom </td>
+          </tr>
+          
+          <!-- This is where Flex is. I used colspan to make thee flex block go across 7 columns. -->
+          
+          <tr>
+              <td> 9:020-10:00 <br/> <i> Flex </i> </td>
+              <td colspan="7"> Flex </td>
+          </tr>
+          
+          <!-- This is where my period 2 classes, or the long periods are. -->
+          
+          <tr>
+              <td> 10:05-11:20 <br/> <i> Period 2 </i> </td>
+              <td> American <br/> Literature </td>
+              <td> Study Hall </td>
+              <td> Paschal Mystery <br/> and the Church </td>
+              <td> Psychology </td>
+              <td> Web Page <br/> Design </td>
+              <td> Spanish II </td>
+              <td> Geometry </td>
+          </tr>
+          
+          <!-- This is where my period 3 class, or most of my lunches start. I used the rowspan to make spanish go across the 3-1 and 302 block, since I have second lunch. -->
+          
+          <tr>
+              <td> 11:25-11:50 <br/> <i> Period 3-1 </i> </td> 
+              <td> <i> Lunch 1 </i> </td>
+              <td> <i> Lunch 1 </i> </td>
+              <td> <i> Lunch 1 </i> </td>
+              <td> <i> Lunch 1 </i> </td>
+              <td rowspan="2"> Spanish II </td>
+              <td> <i> Lunch 1 </i> </td>
+              <td> <i> Lunch 1 </i> </td>
+          </tr>
+          
+          <!-- This is where the weird time in between lunches and the start of third period for people with lunch 1 is. I used rowspan to make my third period classes go down 2 rows becaue I had first lunch. -->
+          
+          <tr>
+              <td> 11:55-12:10 <br/> <i> Period 3-2 </i> </td> 
+              <td rowspan="2"> Study Hall </td>
+              <td rowspan="2"> Paschal Mystery <br/> and the Church </td>
+              <td rowspan="2"> Psychology </td>
+              <td rowspan="2"> Web Page <br/> Design </td>
+              <td rowspan="2"> Geometry </td>
+              <td rowspan="2"> American <br/> Literature </td>
+          </tr>
+          
+          <!-- This is where my period 3-3 classes and the start of my one lunch 2 are. -->
+          
+          <tr>
+              <td> 12:15-12:40 <br/> <i> Period 3-3 </i> </td>
+              <td> <i> Lunch 2 </i> </td>
+          </tr>
+            
+          <!-- This is where my fourth period classes are. -->
+          
+          <tr>
+              <td> 12:45-1:35 <br/> <i> Period 4 </i> </td>
+              <td> Spanish II </td>
+              <td> Geometry </td>
+              <td> American <br/> Literature </td>
+              <td> Study Hall </td>
+              <td> Paschal Mystery <br/> and the Church </td>
+              <td> Psychology </td>
+              <td> Web Page <br/> Design </td>
+          </tr>
+              
+          <!-- This is where my last period classes are. -->
+          
+          <tr>
+              <td> 1:40-2:35 <br/> <i> Period 5 </i> </td>
+              <td> Psychology </td>
+              <td> Web Page <br/> Design </td>
+              <td> Spanish II </td>
+              <td> Geometry </td>
+              <td> American <br/> Literature </td>
+              <td> Study Hall </td>
+              <td>  </td>
+          </tr>
+              
+          </tbody>
+          
+          <!-- I used tfoot to change the color of the foot in CSS. -->
+           
+          <tfoot>
+          
+          <tr>
+              <td> After School <br/> Activities </td>
+              <td colspan="7"> Cheerleading, homework, studying</td>
+          </tr>
+        
+          </tfoot>  
+              
+        </table>
+          
+    </body>
+</html>
